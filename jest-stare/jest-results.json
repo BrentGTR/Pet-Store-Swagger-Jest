@@ -1,0 +1,314 @@
+{
+  "numFailedTestSuites": 4,
+  "numFailedTests": 6,
+  "numPassedTestSuites": 0,
+  "numPassedTests": 0,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 6,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1638665750897,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1638665753506,
+        "runtime": 2379,
+        "slow": false,
+        "start": 1638665751127
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\swaggerPetStoreTests\\2 updatePetTestCases.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pet test cases"
+          ],
+          "duration": 731,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "Pet test cases update pet in store",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "update pet in store"
+        },
+        {
+          "ancestorTitles": [
+            "Pet test cases"
+          ],
+          "duration": 576,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "Pet test cases searches for a pet by ID",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "searches for a pet by ID"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPet test cases › update pet in store\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPet test cases › searches for a pet by ID\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 2,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1638665754921,
+        "runtime": 1296,
+        "slow": false,
+        "start": 1638665753625
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\swaggerPetStoreTests\\4 userOperationsTestCases.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "User test cases"
+          ],
+          "duration": 517,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "User test cases creates a new user",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "creates a new user"
+        },
+        {
+          "ancestorTitles": [
+            "User test cases"
+          ],
+          "duration": 543,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "User test cases log into store",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "log into store"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mUser test cases › creates a new user\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mUser test cases › log into store\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1638665756012,
+        "runtime": 974,
+        "slow": false,
+        "start": 1638665755038
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\swaggerPetStoreTests\\3 storeOrdersTestCases.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Store orders test cases"
+          ],
+          "duration": 548,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "Store orders test cases adds a new purchase order for a pet",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "adds a new purchase order for a pet"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mStore orders test cases › adds a new purchase order for a pet\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n"
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 1,
+      "numPassingTests": 0,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1638665756984,
+        "runtime": 839,
+        "slow": false,
+        "start": 1638665756145
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\swaggerPetStoreTests\\1 createPetTestCases.spec.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pet test cases"
+          ],
+          "duration": 550,
+          "failureDetails": [
+            {
+              "code": "SELF_SIGNED_CERT_IN_CHAIN"
+            }
+          ],
+          "failureMessages": [
+            "Error: self signed certificate in certificate chain\n    at TLSSocket.onConnectSecure (node:_tls_wrap:1530:34)\n    at TLSSocket.emit (node:events:390:28)\n    at TLSSocket._finishInit (node:_tls_wrap:944:8)\n    at TLSWrap.ssl.onhandshakedone (node:_tls_wrap:725:12)"
+          ],
+          "fullName": "Pet test cases adds a new pet to the store",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "adds a new pet to the store"
+        }
+      ],
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[22m\u001b[1mPet test cases › adds a new pet to the store\u001b[39m\u001b[22m\n\n    self signed certificate in certificate chain\n\u001b[2m\u001b[22m\n\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {
+    "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\commonTests.js": {
+      "path": "C:\\Users\\brent.singh\\Documents\\Automation Codebase\\spritecloud-automation-assignment\\commonTests.js",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 1,
+            "column": 16
+          },
+          "end": {
+            "line": 1,
+            "column": 36
+          }
+        },
+        "1": {
+          "start": {
+            "line": 2,
+            "column": 16
+          },
+          "end": {
+            "line": 2,
+            "column": 59
+          }
+        },
+        "2": {
+          "start": {
+            "line": 4,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 1
+          }
+        }
+      },
+      "fnMap": {},
+      "branchMap": {},
+      "s": {
+        "0": 4,
+        "1": 4,
+        "2": 4
+      },
+      "f": {},
+      "b": {},
+      "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+      "hash": "442a9159c26c456f25e3137afc89c0a4fd491443"
+    }
+  }
+}
