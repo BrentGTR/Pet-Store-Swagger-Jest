@@ -21,7 +21,7 @@ Using the command line: npm test
 ## Jest-stare writes output reports to ./jest-stare/index.html
 
 b. How to run the test in a CI/CD pipeline
-
+UND
 
 c. Has a link to the results in Calliope.pro
 
