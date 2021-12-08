@@ -37,5 +37,8 @@ Please see above.
 
 
 ## What could be the next steps to your project
-Further steps are to complete the testing of the endpoints of the project as each relate to functionality of the application. 
+Further steps are to complete the testing of the endpoints of the project as each relate to functionality of the 
+application. Pact (https://docs.pact.io/) will be used in addition with Jest in order to perform contract testing for 
+the API.
+
 
