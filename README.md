@@ -16,6 +16,7 @@ npm install jest jest-stare jest-serial-runner --save-dev
 npm install supertest --save-dev
 
 ## How to run the tests locally
+Prerequisite: Run the command npm install in the terminal
 Using the command line: npm test
 
 ## Jest-stare writes output reports to ./jest-stare/index.html
@@ -27,9 +28,10 @@ c. Has a link to the results in Calliope.pro
 
 
 ## What you used to select the scenarios, what was your approach?
-The approach taken in selecting the functionality to cover with the automated tests was based on a MVP of the a pet store application. 
-Hence features such as create were selected as they would be the first action performed by a user when setting up the store. A login 
-scenario was also selected as this feature is the first touch-point of the application for users. 
+The approach taken in selecting the functionality to cover with the automated tests was based on an MVP of the pet 
+store application. 
+Hence, features such as create were selected as they would be the first action performed by a user when setting up the 
+store. A login scenario was also selected as this feature is the first touch-point of the application for users. 
 
 
 ## Why are they the most important
@@ -37,5 +39,7 @@ Please see above.
 
 
 ## What could be the next steps to your project
-Further steps are to complete the testing of the endpoints of the project as each relate to functionality of the application. 
+Further steps are to complete the testing of the endpoints of the project as each relate to functionality of the 
+application. Pact (https://docs.pact.io/) will be used in addition with Jest in order to perform contract testing for 
+the API.
 
