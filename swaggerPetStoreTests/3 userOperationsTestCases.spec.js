@@ -23,7 +23,7 @@ describe("User test cases", () => {
                 .send(userDetails)
                 .expect(200);
             expect(res.body).toBeDefined();
-            expect(userDetails.id).toContain(res.body.message)
+            expect(userDetails.id.toString()).toBe(res.body.message)
             console.log("POST response body : ", res.body);
             console.log("New user created with ID : ", res.body.message);               
         })  

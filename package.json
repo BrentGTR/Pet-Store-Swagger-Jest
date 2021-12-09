@@ -5,6 +5,7 @@
   "main": "index.js",
   "jest": {
     "verbose": true,
+    "testSequencer": "./testSequencer.js",
     "coverageDirectory": "./coverage/reports/",
     "coverageReporters": ["html","text"],
     "coverageThreshold": {
@@ -17,7 +18,7 @@
     }
   },
   "scripts": {
-    "test": "jest --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000",
+    "test": "sh node_modules/.bin/jest --runInBand --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000",
     "test:watch": "jest --verbose --watchAll"
   },
   "keywords": [],
